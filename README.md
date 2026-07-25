@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>🌐 Nexus — Real-Time Event Networking Platform</h1>
+  <h1>🌐 Nexus — Production-Grade Event Networking Platform</h1>
   <p><strong>Never miss a high-value connection at hackathons, conferences, and tech meetups.</strong></p>
 
   <p>
@@ -26,7 +26,7 @@
 
 🔗 **Experience the Live Web Application**: **[https://join-nexus1.vercel.app](https://join-nexus1.vercel.app)**
 
-> **Note**: Nexus is engineered for live events, hackathons, and conferences. Log in with your LinkedIn account to experience real-time attendee discovery and networking.
+> **Note**: Nexus is engineered for live events, hackathons, and conferences. Authenticate with LinkedIn to experience real-time, location-aware attendee discovery and networking.
 
 ---
 
@@ -39,7 +39,7 @@ At modern tech events, conferences, and hackathons:
 
 ---
 
-## ✨ Key Features
+## ✨ Production Features
 
 ### 🔐 1. Official LinkedIn OAuth 2.0 Verification
 - **Verified Identities**: 1-tap authentication strictly via LinkedIn's official OAuth authorization endpoint.
@@ -54,20 +54,20 @@ At modern tech events, conferences, and hackathons:
   - 👔 **Hiring & Talent Acquisition**
   - 💡 **Mentorship & Advising**
   - 🛠️ **Hackathon Collaboration**
-- **Rich Profiles**: Auto-populates LinkedIn photo and name, capturing headline, organization, skills, and interests.
+- **Rich Profiles**: Auto-populates LinkedIn photo and name, capturing organization, interests, looking_for goals, and bio.
 
-### 📡 3. Live Location-Aware Room Presence
+### 📡 3. Live Location-Aware Room Presence Engine
 - **Real-Time Attendee Discovery**: Discover all real attendees currently present in the same room across mobile and desktop devices.
-- **Goal & Skill Filters**: Instant filtering by goal badges (`Looking For`) and skill tags.
+- **Goal & Domain Filters**: Instant filtering by goal badges (`Looking For`) and domain tags.
 
-### 🔗 4. Direct LinkedIn Profile Linking
+### 🔗 4. Direct Verified LinkedIn Profile Linking
 - **1-Tap Profile Access**: Clicking **`View LinkedIn Profile ↗`** opens the attendee's authentic LinkedIn profile in a new tab for instant connection requests.
 
 ### 💬 5. Integrated 1-on-1 Direct Messaging
-- **In-App Messaging**: Instant 1-on-1 chat drawer allowing attendees to communicate directly without leaving the event room.
+- **In-App Messaging**: Instant 1-on-1 chat drawer allowing attendees to communicate directly without leaving the event room (self-messaging disabled).
 
-### 👑 6. Founder & Admin Control Center
-- **Event Operations**: Dedicated password-protected admin hub (`/admin`) for platform monitoring, feedback collection, and live user metrics.
+### 👑 6. Founder Control Center
+- **Event Operations**: Dedicated password-protected admin hub (`/admin`) for platform monitoring and live user metrics.
 
 ---
 
@@ -91,23 +91,11 @@ graph TD
 | :--- | :--- |
 | **Framework** | [Next.js 14](https://nextjs.org/) (App Router, Server Components & Route Handlers) |
 | **Language** | [TypeScript](https://www.typescriptlang.org/) (Strict Type Checking) |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com/) & Vanilla CSS Tokens |
-| **Icons & UI** | [Lucide React](https://lucide.dev/), Custom Glassmorphism System |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) & Glassmorphic Design System |
+| **Icons & UI** | [Lucide React](https://lucide.dev/), Custom Design System Tokens |
 | **State Management** | [Zustand](https://github.com/pmndrs/zustand) (Persistent Local & Auth State) |
 | **Database & Auth** | [Supabase](https://supabase.com/) PostgreSQL & Supabase SSR Auth (LinkedIn OIDC) |
 | **Deployment** | [Vercel](https://vercel.com/) (Serverless Edge Platform) |
-
----
-
-## 🗺️ Product Roadmap
-
-- [x] Official LinkedIn OAuth 2.0 Authentication
-- [x] First-Time Profile Onboarding & Goal Badging
-- [x] Multi-Device Real-Time Room Presence Engine
-- [x] 1-on-1 In-App Direct Messaging
-- [ ] 📱 QR Standee Venue Check-In Integration
-- [ ] 🤖 AI Smart Attendee Matchmaker (Skill Complementarity Algorithm)
-- [ ] 📅 Calendar Export for Post-Event Follow-Ups
 
 ---
 
